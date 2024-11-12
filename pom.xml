@@ -5,9 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>site.lifd</groupId>
-    <artifactId>fdtools</artifactId>
+    <artifactId>fdtools-parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+    <name>fdtools</name>
+    <description>fdtools是一个Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率。</description>
+    <url>https://github.com/lifengdi/fdtools</url>
 
     <modules>
         <module>fd-core</module>

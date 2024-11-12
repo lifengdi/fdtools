@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>site.lifd</groupId>
-        <artifactId>fdtools</artifactId>
+        <artifactId>fdtools-parent</artifactId>
         <version>1.0.0</version>
     </parent>
 
