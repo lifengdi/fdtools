@@ -7,11 +7,12 @@
     <parent>
         <groupId>site.lifd</groupId>
         <artifactId>fdtools</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>fd-core</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <name>${project.artifactId}</name>
+    <description>fdtools 核心模块，提供核心方法和数据结构</description>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
