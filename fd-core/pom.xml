@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.lifd</groupId>
-        <artifactId>fd-base</artifactId>
+        <groupId>site.lifd</groupId>
+        <artifactId>fdtools</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
