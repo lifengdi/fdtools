@@ -5,7 +5,7 @@ package com.lifd.core.clone;
  * *
  * @param <T> 继承类的类型
  */
-public class CloneSupport<T> implements java.lang.Cloneable<T> {
+public class CloneSupport<T> implements Cloneable<T> {
 
 	@SuppressWarnings("unchecked")
 	@Override
