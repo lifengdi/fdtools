@@ -2,6 +2,7 @@ package site.lifd.cache.impl;
 
 import site.lifd.core.date.DateUtil;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicLong;
@@ -14,6 +15,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author lifengdi
  */
 public class CacheObj<K, V> implements Serializable {
+	@Serial
 	private static final long serialVersionUID = 1L;
 
 	protected final K key;
