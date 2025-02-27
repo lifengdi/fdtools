@@ -12,7 +12,7 @@ import site.lifd.core.lang.func.Func0;
  * @param <K> 键类型
  * @param <V> 值类型
  * @author lifengdi
- * @createTime 2024/11/12 11:14
+ * @createTime 2024/11/12 11:15
  */
 public interface Cache<K, V> extends Iterable<V>, Serializable {
 
