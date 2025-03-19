@@ -5,8 +5,6 @@ import site.lifd.core.util.StrUtil;
 
 /**
  * 工具类异常
- *
- * *
  */
 public class ThreadException extends RuntimeException {
 	private static final long serialVersionUID = 5253124428623713216L;
