@@ -8,8 +8,6 @@ import java.lang.annotation.Target;
 
 /**
  * 别名注解，使用此注解的字段、方法、参数等会有一个别名，用于Bean拷贝、Bean转Map等
- *
- * *
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
