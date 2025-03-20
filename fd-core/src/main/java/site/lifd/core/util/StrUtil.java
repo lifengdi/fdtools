@@ -18,7 +18,6 @@ import site.lifd.core.text.TextSimilarity;
 
 /**
  * 字符串工具类
- *
  * */
 public class StrUtil extends CharSequenceUtil implements StrPool {
 
@@ -83,7 +82,7 @@ public class StrUtil extends CharSequenceUtil implements StrPool {
 		if (null == obj) {
 			return true;
 		} else if (obj instanceof CharSequence) {
-			return 0 == ((CharSequence) obj).length();
+			return ((CharSequence) obj).isEmpty();
 		}
 		return false;
 	}
